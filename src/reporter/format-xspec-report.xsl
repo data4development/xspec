@@ -20,7 +20,7 @@
 
 <pkg:import-uri>http://www.jenitennison.com/xslt/xspec/format-xspec-report.xsl</pkg:import-uri>
 
-<xsl:param name="inline-css">false</xsl:param>
+<xsl:param name="inline-css">true</xsl:param>
 
 <xsl:param name="report-css-uri" select="
     resolve-uri('test-report.css', static-base-uri())"/>
